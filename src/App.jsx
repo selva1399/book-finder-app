@@ -8,6 +8,7 @@ import About from "./pages/About";
 import BookList from "./components/book/BookList";
 import BookDetails from "./components/book/BookDetails";
 import Footer from "./components/footer/Footer";
+import PageNotFound from "./pages/PageNotFound";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/book" element={<BookList />} />
         <Route path="/works/:id" element={<BookDetails />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
 
       <Footer />
