@@ -1,13 +1,13 @@
 import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import Header from "./components/header/header";
+import Header from "../src/components/header/Header";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import BookList from "./components/book/BookList";
-import BookDetails from "./components/book/BookDetails";
-import Footer from "./components/footer/Footer";
+import BookList from "../src/components/book/BookList";
+import BookDetails from "../src/components/book/BookDetails";
+import Footer from "../src/components/footer/Footer";
 
 function App() {
   return (
